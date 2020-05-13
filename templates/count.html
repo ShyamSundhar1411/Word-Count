@@ -1,0 +1,8 @@
+<h1>Hey we have got your results</h1>
+Your entered text : {{fulltext}}
+<h1>Total Letters: {{Totalwords}}</h1>
+<h1>Total Words : {{Wordy}}</h1>
+<a href="{% url 'home' %}">Wanna Try again</a>
+{% for i,j in wordd %}
+<h1>{{i}}-{{j}}</h1>
+{% endfor %}
